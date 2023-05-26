@@ -47,7 +47,7 @@
 			out.println("회원 삭제 실패!:"+successFlag);
 		} finally {
 			pstmt.close();//p-statment 닫아주기
-			conn.close();//connection 닫아주기	
+			conn.close();//connection 닫아주기	 //ww
 		}
 	%>
 </body>
